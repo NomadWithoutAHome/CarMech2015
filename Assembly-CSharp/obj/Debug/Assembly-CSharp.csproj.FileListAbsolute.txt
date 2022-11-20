@@ -1,0 +1,17 @@
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\Assembly-CSharp.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\Assembly-UnityScript-firstpass.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\ES2.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\System.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\UnityEngine.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\DecalSystem.Runtime.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\Boo.Lang.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\UnityScript.Lang.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\MoodkieSecurity.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\bin\Debug\Mono.Security.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\obj\Debug\Assembly-CSharp.dll
+C:\Users\SeanS\OneDrive\Documents\CarMechSource\Assembly-CSharp\obj\Debug\Assembly-CSharp.pdb

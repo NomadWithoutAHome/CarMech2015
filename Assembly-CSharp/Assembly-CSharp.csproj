@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39777C31-00CD-45A3-934A-E2FB8C569AA4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assembly-CSharp</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2015\cms2015_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2015\cms2015_Data\Managed\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="ES2">
+      <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2015\cms2015_Data\Managed\ES2.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2015\cms2015_Data\Managed\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2015\cms2015_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\SteamLibrary\steamapps\common\Car Mechanic Simulator 2015\cms2015_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimatedAlpha.cs" />
+    <Compile Include="AnimatedColor.cs" />
+    <Compile Include="ATest.cs" />
+    <Compile Include="BakeTexturesAtRuntime.cs" />
+    <Compile Include="BirdsBehaviour.cs" />
+    <Compile Include="BlitHelper.cs" />
+    <Compile Include="CameraFlyController.cs" />
+    <Compile Include="CameraFocus.cs" />
+    <Compile Include="CameraInfo.cs" />
+    <Compile Include="CameraRotate.cs" />
+    <Compile Include="CameraTargeting.cs" />
+    <Compile Include="CandelaSSRR.cs" />
+    <Compile Include="CastSSRRcontrol.cs" />
+    <Compile Include="CC_AnalogTV.cs" />
+    <Compile Include="CC_Base.cs" />
+    <Compile Include="CC_BleachBypass.cs" />
+    <Compile Include="CC_BrightnessContrastGamma.cs" />
+    <Compile Include="CC_ChannelMixer.cs" />
+    <Compile Include="CC_DoubleVision.cs" />
+    <Compile Include="CC_FastVignette.cs" />
+    <Compile Include="CC_Frost.cs" />
+    <Compile Include="CC_Grayscale.cs" />
+    <Compile Include="CC_HueSaturationValue.cs" />
+    <Compile Include="CC_Led.cs" />
+    <Compile Include="CC_Levels.cs" />
+    <Compile Include="CC_PhotoFilter.cs" />
+    <Compile Include="CC_Pixelate.cs" />
+    <Compile Include="CC_Posterize.cs" />
+    <Compile Include="CC_RadialBlur.cs" />
+    <Compile Include="CC_Sharpen.cs" />
+    <Compile Include="CC_Threshold.cs" />
+    <Compile Include="CC_Vibrance.cs" />
+    <Compile Include="ChatInput.cs" />
+    <Compile Include="ChromaticAberration.cs" />
+    <Compile Include="ClipCursorScript.cs" />
+    <Compile Include="ClockAnimator.cs" />
+    <Compile Include="CMS15.cs" />
+    <Compile Include="ColorCycle.cs" />
+    <Compile Include="CombineChildren.cs" />
+    <Compile Include="CompoundObjectController.cs" />
+    <Compile Include="CorruptedSmileStudio\JukeBox\Song.cs" />
+    <Compile Include="CSB_ReflectionFx.cs" />
+    <Compile Include="CSB_RotateScript.cs" />
+    <Compile Include="CSB_ScrollInScript.cs" />
+    <Compile Include="CSB_SHLightHelper.cs" />
+    <Compile Include="CSHighlighterController.cs" />
+    <Compile Include="CubemapNode.cs" />
+    <Compile Include="CubemapNodeContainer.cs" />
+    <Compile Include="Cubemapper.cs" />
+    <Compile Include="CubemapUser.cs" />
+    <Compile Include="DieTimer.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_EditorMethodsInterface.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_LightmapOptions.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_Log.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_LogLevel.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_OutputOptions.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_PackingAlgorithmEnum.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_TexturePacker.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB2_ValidationLevel.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB3_MeshCombiner.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB3_MeshCombinerSingle.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB3_MultiMeshCombiner.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB3_TextureCombiner.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MBVersion.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB_ObjsToCombineTypes.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB_OutputOptions.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB_RenderType.cs" />
+    <Compile Include="DigitalOpus\MB\Core\MB_Utility.cs" />
+    <Compile Include="DigitalOpus\MB\Core\ObjectLog.cs" />
+    <Compile Include="DigitalOpus\MB\Core\ProgressUpdateDelegate.cs" />
+    <Compile Include="DisableObjects.cs" />
+    <Compile Include="DoFAutoFocus.cs" />
+    <Compile Include="DownloadTexture.cs" />
+    <Compile Include="DragDropContainer.cs" />
+    <Compile Include="DragDropItem.cs" />
+    <Compile Include="DragDropRoot.cs" />
+    <Compile Include="DragDropSurface.cs" />
+    <Compile Include="EnableDepthTexture.cs" />
+    <Compile Include="EquipItems.cs" />
+    <Compile Include="EquipRandomItem.cs" />
+    <Compile Include="ES2Init.cs" />
+    <Compile Include="ES2UniqueID.cs" />
+    <Compile Include="ES2_Sprite.cs" />
+    <Compile Include="ExplodePart.cs" />
+    <Compile Include="ExplodePartManager.cs" />
+    <Compile Include="Fence.cs" />
+    <Compile Include="FlashingController.cs" />
+    <Compile Include="flickeringLight.cs" />
+    <Compile Include="FPSCounter.cs" />
+    <Compile Include="FPSObjectShooter.cs" />
+    <Compile Include="Generate2DReflection.cs" />
+    <Compile Include="GroundReflection.cs" />
+    <Compile Include="HighlighterController.cs" />
+    <Compile Include="HighlighterOccluder.cs" />
+    <Compile Include="InvAttachmentPoint.cs" />
+    <Compile Include="InvBaseItem.cs" />
+    <Compile Include="InvDatabase.cs" />
+    <Compile Include="InvEquipment.cs" />
+    <Compile Include="InvGameItem.cs" />
+    <Compile Include="InvStat.cs" />
+    <Compile Include="InvTools.cs" />
+    <Compile Include="Jukebox.cs" />
+    <Compile Include="LagPosition.cs" />
+    <Compile Include="LagRotation.cs" />
+    <Compile Include="LensDirtiness.cs" />
+    <Compile Include="LensDirtiness2.cs" />
+    <Compile Include="Lightbeam.cs" />
+    <Compile Include="LightbeamSettings.cs" />
+    <Compile Include="LoadLevelOnClick.cs" />
+    <Compile Include="LODcam.cs" />
+    <Compile Include="LogicBreakableRopes.cs" />
+    <Compile Include="LogicGlobal.cs" />
+    <Compile Include="LogicLamp.cs" />
+    <Compile Include="LogicRopeWithCoil.cs" />
+    <Compile Include="LogicSimpleRopes.cs" />
+    <Compile Include="LookAtTarget.cs" />
+    <Compile Include="MB2_TestShowHide.cs" />
+    <Compile Include="MB2_TestUpdate.cs" />
+    <Compile Include="MB2_TextureBakeResults.cs" />
+    <Compile Include="MB2_UpdateSkinnedMeshBoundsFromBones.cs" />
+    <Compile Include="MB2_UpdateSkinnedMeshBoundsFromBounds.cs" />
+    <Compile Include="MB3_BatchPrefabBaker.cs" />
+    <Compile Include="MB3_DisableHiddenAnimations.cs" />
+    <Compile Include="MB3_MeshBaker.cs" />
+    <Compile Include="MB3_MeshBakerCommon.cs" />
+    <Compile Include="MB3_MeshBakerGrouper.cs" />
+    <Compile Include="MB3_MeshBakerGrouperCore.cs" />
+    <Compile Include="MB3_MeshBakerRoot.cs" />
+    <Compile Include="MB3_MultiMeshBaker.cs" />
+    <Compile Include="MB3_TextureBaker.cs" />
+    <Compile Include="MB_AtlasesAndRects.cs" />
+    <Compile Include="MB_BatchPrepareObjectsForDynamicBatchingDescription.cs" />
+    <Compile Include="MB_DynamicAddDeleteExample.cs" />
+    <Compile Include="MB_Example.cs" />
+    <Compile Include="MB_ExampleMover.cs" />
+    <Compile Include="MB_ExampleSkinnedMeshDescription.cs" />
+    <Compile Include="MB_MultiMaterial.cs" />
+    <Compile Include="MB_PrepareObjectsForDynamicBatchingDescription.cs" />
+    <Compile Include="MB_SkinnedMeshSceneController.cs" />
+    <Compile Include="MC_AutoRotate.cs" />
+    <Compile Include="MC_SwitchTexture.cs" />
+    <Compile Include="MeshCombineUtility.cs" />
+    <Compile Include="MLAA.cs" />
+    <Compile Include="MobileISpecLookupTexture.cs" />
+    <Compile Include="MobileSkinLookupTexture.cs" />
+    <Compile Include="MovementController.cs" />
+    <Compile Include="MoveSample.cs" />
+    <Compile Include="moviePlayer.cs" />
+    <Compile Include="MyExampleScript.cs" />
+    <Compile Include="ObjectSpinner.cs" />
+    <Compile Include="OutlineGlowEffectScript.cs" />
+    <Compile Include="OutlineGlowRenderer.cs" />
+    <Compile Include="OutlineGlowRendererSort.cs" />
+    <Compile Include="PanWithMouse.cs" />
+    <Compile Include="PinballGUI.cs" />
+    <Compile Include="PlayIdleAnimations.cs" />
+    <Compile Include="PrefabManager.cs" />
+    <Compile Include="ProCore\Decals\Decal.cs" />
+    <Compile Include="ProCore\Decals\DecalGroup.cs" />
+    <Compile Include="ProCore\Decals\DecalView.cs" />
+    <Compile Include="ProCore\Decals\Placement.cs" />
+    <Compile Include="ProCore\Decals\qdUtil.cs" />
+    <Compile Include="ProCore\Decals\qd_Const.cs" />
+    <Compile Include="ProCore\Decals\qd_Decal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="qd_DecalDebug.cs" />
+    <Compile Include="qd_Mesh.cs" />
+    <Compile Include="REDDOT_TVscreen_PostProcess.cs" />
+    <Compile Include="ReflectionRenderResolution.cs" />
+    <Compile Include="RenderColorDepth.cs" />
+    <Compile Include="RopePersistAttribute.cs" />
+    <Compile Include="RopePersistManager.cs" />
+    <Compile Include="RotatePivot180.cs" />
+    <Compile Include="RotateSample.cs" />
+    <Compile Include="RotationController.cs" />
+    <Compile Include="SampleInfo.cs" />
+    <Compile Include="SceneLoader.cs" />
+    <Compile Include="ScreenSpaceSubsurfaceScattering.cs" />
+    <Compile Include="SetColorOnSelection.cs" />
+    <Compile Include="ShaderQuality.cs" />
+    <Compile Include="ShowNormals.cs" />
+    <Compile Include="SongDisplay.cs" />
+    <Compile Include="SpectrumController.cs" />
+    <Compile Include="Spin.cs" />
+    <Compile Include="SpinWithMouse.cs" />
+    <Compile Include="SurfaceReflection.cs" />
+    <Compile Include="SurfaceReflection2.cs" />
+    <Compile Include="TerrainToolkit.cs" />
+    <Compile Include="ToggleObjectTrigger.cs" />
+    <Compile Include="ToonPack.cs" />
+    <Compile Include="TurnTableGUI.cs" />
+    <Compile Include="TweenOrthoSize.cs" />
+    <Compile Include="TypewriterEffect.cs" />
+    <Compile Include="UIButtonKeyBinding.cs" />
+    <Compile Include="UICursor.cs" />
+    <Compile Include="UICursorTexture.cs" />
+    <Compile Include="UIEquipmentSlot.cs" />
+    <Compile Include="UIFollowTarget.cs" />
+    <Compile Include="UIInputKeyBinding.cs" />
+    <Compile Include="UIItemSlot.cs" />
+    <Compile Include="UIItemStorage.cs" />
+    <Compile Include="UIStorageSlot.cs" />
+    <Compile Include="UltimateRope.cs" />
+    <Compile Include="UltimateRopeLink.cs" />
+    <Compile Include="UniqueGameLogic.cs" />
+    <Compile Include="UniqueObjectManager.cs" />
+    <Compile Include="UniqueSaveManager.cs" />
+    <Compile Include="UpdateManager.cs" />
+    <Compile Include="UploadDownloadTexture.cs" />
+    <Compile Include="WindowAutoYaw.cs" />
+    <Compile Include="WindowDragTilt.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
